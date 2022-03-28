@@ -69,6 +69,7 @@
         //Reviews
         <string name="enter_review">Enter a Review</string>
         <string name="leave_feedback_caps">LEAVE FEEDBACK</string>
+        <string name="review_title">Title of Review</string>
 
         //Hamburger Menu
         <string name="login_register">Login/Register</string>
