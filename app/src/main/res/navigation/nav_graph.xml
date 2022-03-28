@@ -31,4 +31,16 @@
         android:name="com.example.group_2_final.DirectionsFragment"
         android:label="fragment_directions"
         tools:layout="@layout/fragment_directions" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.group_2_final.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.group_2_final.RegisterFragment"
+        android:label="RegisterFragment" />
 </navigation>
