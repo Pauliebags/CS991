@@ -11,8 +11,10 @@
         android:orientation="vertical"
         android:background="#2d2e43">
 
-        <include android:id="@+id/list_item_fav1"
-            layout="@layout/list_item_fav"/>
+        <include
+            android:id="@+id/list_item_fav1"
+            layout="@layout/list_item_fav" />
+
         <include android:id="@+id/list_item2_fav"
             layout="@layout/list_item_fav"/>
         <include android:id="@+id/list_item3_fav"
