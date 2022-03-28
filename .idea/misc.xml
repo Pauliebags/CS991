@@ -37,6 +37,16 @@
         <entry key="..\:/Users/frang/Desktop/CS991/AndroidStudioProjects/Group_2_Final/app/src/main/res/menu/main_nav.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/frang/Desktop/CS991/AndroidStudioProjects/Group_2_Final/app/src/main/res/menu/menu_favorites.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/frang/Desktop/CS991/AndroidStudioProjects/Group_2_Final/app/src/main/res/menu/nav_menu.xml" value="0.19067977768277042" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1625" />
+        <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1625" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2015625" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.2015625" />
+        <entry key="app/src/main/res/layout/fragment_maps.xml" value="0.2015625" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.2015625" />
+        <entry key="app/src/main/res/layout/fragment_reset_password.xml" value="0.2015625" />
+        <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/main_nav.xml" value="0.2015625" />
       </map>
     </option>
   </component>
