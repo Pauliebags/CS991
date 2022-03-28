@@ -1,0 +1,86 @@
+<resources>
+
+    <string name="title_activity_favorites">FavoritesActivity</string>
+    <string name="large_text">Bollocks</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+           //Common
+        <string name="app_name">AccessPass</string>
+        <string name="map">Map</string>
+        <string name="list">List</string>
+        <string name="favourites">Favourites</string>
+        <string name="lorem_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.</string>
+        <string name="show">show</string>
+        <string name="enter_username">Username (Required)*</string>
+        <string name="enter_password">Password (Required)*</string>
+        <string name="login_caps">LOGIN</string>
+        <string name="register_caps">REGISTER</string>
+        <string name="enter_email">Email Address (Required)*</string>
+        <string name="venue_name">Venue Name</string>
+        <string name="card_description">Card layouts can vary to support the types of \n content they contain. The following elements \n are commonly found among that variety.</string>
+        <string name="view_reviews">View Reviews</string>
+        <string name="number_reviews">(8)</string>
+        <string name="info">Info</string>
+        <string name="reviews">Reviews</string>
+        <string name="feedback">Feedback</string>
+        <string name="about_venue_header">About Venue Name</string>
+        <string name="facilities">Facilities</string>
+        <string name="address">173 Byers Road \n Glasgow \n G41 8UH</string>
+        <string name="one">1</string>
+        <string name="two">2</string>
+        <string name="three">3</string>
+        <string name="four">4</string>
+
+        //Register
+        <string name="confirm_password"> Confirm Password (Required)*</string>
+        <string name="have_account">Have an account?</string>
+
+        //Login
+        <string name="login_header" >Let\'s Get Started</string>
+        <string name="login_forgot">Forgot Password?</string>
+        <string name="no_account">Don\'t have an account?</string>
+
+        //Forgot Password
+        <string name="forgot_header">Forgot Your Password?</string>
+        <string name="request_new_password_caps">REQUEST NEW PASSWORD</string>
+
+        //Reset Password
+        <string name="reset_header">Reset Your Password</string>
+        <string name="new_password">New Password (Required)*</string>
+        <string name="confirm_new_password">Confirm New Password (Required)*</string>
+        <string name="reset_password_caps">RESET PASSWORD</string>
+
+        //Map View
+        <string name="directions">Directions</string>
+
+        //Search
+        <string name="enter_search">Enter postcode, town or city</string>
+        <string name="my_location">My Location</string>
+        <string name="recent_searches">Recent Searches</string>
+        <string name="glasgow_search">Glasgow City Centre, Glasgow</string>
+
+        //Filter
+        <string name="access">Access</string>
+        <string name="filter_category">Filter Category</string>
+        <string name="all_hours_access">24 Hour Access</string>
+        <string name="filter">Filter</string>
+
+        //Reviews
+        <string name="enter_review">Enter a Review</string>
+        <string name="leave_feedback_caps">LEAVE FEEDBACK</string>
+
+        //Hamburger Menu
+        <string name="login_register">Login/Register</string>
+        <string name="menu_item">Menu Item</string>
+        <string name="custom_shapes">Custom Shapes</string>
+        <string name="paragraph_styles">Paragraph Styles</string>
+        <string name="align">Align</string>
+        <string name="line_spacing">Line Spacing</string>
+        <string name="log_out">Log Out</string>
+
+        //User Profile
+        <string name="username">Username</string>
+        <string name="email">email@email.com</string>
+
+</resources>
