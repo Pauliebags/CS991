@@ -135,8 +135,9 @@
             android:id="@+id/imageView18"
             android:layout_width="51dp"
             android:layout_height="51dp"
-            app:srcCompat="@drawable/star_favorite"
-            tools:layout_editor_absoluteX="302dp" />
+            android:layout_marginStart="32dp"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:srcCompat="@drawable/star_favorite" />
 
     </androidx.constraintlayout.widget.ConstraintLayout> <!--Venue Name-->
     <androidx.constraintlayout.widget.ConstraintLayout
