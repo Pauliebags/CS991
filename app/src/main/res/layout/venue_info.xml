@@ -25,22 +25,26 @@
         android:id="@+id/button_venue_info_feedback"
         android:layout_width="119dp"
         android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
         android:backgroundTint="@color/grey"
         android:text="@string/feedback"
         android:textAllCaps="false"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="260dp"
-        tools:layout_editor_absoluteY="365dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar_venue_info_rating" />
 
     <Button
         android:id="@+id/button_venue_info_info"
         android:layout_width="119dp"
         android:layout_height="57dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="@color/icon"
         android:text="@string/info"
         android:textAllCaps="false"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="365dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar_venue_info_rating" />
 
     <Button
         android:id="@+id/button_venue_info_reviews"
@@ -117,24 +121,26 @@
         android:id="@+id/textView_venue_info_facilities"
         android:layout_width="379dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="13dp"
+        android:layout_marginBottom="8dp"
         android:text="@string/facilities"
         android:textColor="@color/white"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView_venue_info_wheelchair"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView_venue_info_wheelchair"
         android:layout_width="67dp"
         android:layout_height="69dp"
+        android:layout_marginStart="24dp"
         android:backgroundTint="@color/white"
-        app:srcCompat="@drawable/wheelchair_icon"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="595dp" />
+        app:layout_constraintEnd_toStartOf="@+id/imageView_venue_info_stairs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_venue_info_facilities"
+        app:srcCompat="@drawable/wheelchair_icon" />
 
     <ImageButton
         android:id="@+id/imageButton_venue_info_favourites"
@@ -151,17 +157,19 @@
         android:id="@+id/imageView_venue_info_stairs"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        app:srcCompat="@drawable/stairs_icon"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="595dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_venue_info_facilities"
+        app:srcCompat="@drawable/stairs_icon" />
 
     <ImageView
         android:id="@+id/imageView_venue_info_food"
         android:layout_width="63dp"
         android:layout_height="59dp"
-        app:srcCompat="@drawable/food_icon"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="595dp" />
+        android:layout_marginStart="68dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView_venue_info_stairs"
+        app:layout_constraintTop_toBottomOf="@+id/textView_venue_info_facilities"
+        app:srcCompat="@drawable/food_icon" />
 
     <RatingBar
         android:id="@+id/ratingBar_venue_info_rating"
