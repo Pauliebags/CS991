@@ -53,4 +53,18 @@ public class MainActivity : AppCompatActivity() {
         Toast.makeText(, this,"Registration Successful!", Toast.LENGTH_SHORT).show()
         Intent i = new Intent(applicationContext(), RegisterFragment.class);
         startActivity(i);
-}
+
+    public fun buttonLogin(view: View) {
+        Intent i = new Intent(applicationContext(), ProfileFragment.class);
+        startActivity(i);
+
+    public fun buttonLogin(view: View) {
+        Intent i = new Intent(applicationContext(), ProfileFragment.class);
+        startActivity(i);
+
+    public fun buttonLogin(view: View){}
+        Intent i = new Intent(applicationContext(), ProfileFragment.class);
+        startActivity(i);
+
+    public fun buttonLogin(view: View) {
+            Intent i = new Intent(applicationContext(), ProfileFragment.class);
