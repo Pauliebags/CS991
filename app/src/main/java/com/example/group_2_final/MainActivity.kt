@@ -2,6 +2,8 @@ package com.example.group_2_final
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Toast
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
@@ -10,9 +12,8 @@ import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
-
-class MainActivity : AppCompatActivity() {
-
+public class MainActivity : AppCompatActivity() {
+    private Button buttonLogin, buttonRegister;
 
     lateinit var bottomNav: BottomNavigationView
     lateinit var navController: NavController
@@ -20,6 +21,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        buttonLogin = findViewById(R.id.button_login);
+        buttonRegister = findViewById(R.id.button_register);
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         bottomNav = bottom_navigation
@@ -40,4 +43,14 @@ class MainActivity : AppCompatActivity() {
     private fun setupBottomNavigation() {
         bottomNav.setupWithNavController(navController)
     }
+
+    public fun buttonLogin(view: View) {
+        Toast.makeText(, this,"Login Successful!", Toast.LENGTH_SHORT).show()
+        Intent i = new Intent(applicationContext(), ProfileFragment.class);
+        startActivity(i);
+    }
+    public fun buttonRegister(view: View){}
+        Toast.makeText(, this,"Registration Successful!", Toast.LENGTH_SHORT).show()
+        Intent i = new Intent(applicationContext(), RegisterFragment.class);
+        startActivity(i);
 }

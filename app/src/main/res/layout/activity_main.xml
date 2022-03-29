@@ -44,4 +44,11 @@
         android:layout_gravity="start"
         app:headerLayout="@layout/drawer_header"
         app:menu="@menu/main_nav"/>
+
+    <Button
+        android:id="*****"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="size="18sp"
+        android
 </androidx.drawerlayout.widget.DrawerLayout>
